@@ -1,0 +1,119 @@
+/*Corpo da página */
+head {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #fad000;
+  background: #2f2e2e;
+}
+
+header {
+  background-color: #2f2e2e;
+  border-bottom: 5px solid #fad000;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px black;
+}
+
+section::after {
+  content:"";
+  background-image: url("https://marquesfernandes.com/wp-content/uploads/2019/12/1_s9pTH7fpkN2SUCHSGG-HXQ.jpeg") ;
+  background-size: cover;
+  top:0;
+  bottom:0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.2;
+}
+
+
+.informacoes {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin-top: 5px;
+  font-style: italic;
+
+  font-size: 95%;
+}
+form {
+  text-align: left;
+  border: 2px solid #fad000;
+  padding: 40px;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 10px;
+  background: #2f2e2e;
+}
+div {
+  margin-top: 1em;
+}
+input {
+  border: none;
+  outline-style: none;
+  background: #2f2e2e;
+  border-bottom: 3px solid #fad000;
+  box-shadow: 0px 5px 1px black;
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button {
+  border: 2px solid #fad000;
+  background: #2f2e2e;
+  padding: 10px;
+  color: #fad000;
+  box-shadow: 5px 5px 4px black;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Classes */
+.caixinha {
+  width: 500px;
+  margin: 0 left;
+}
+.butone {
+  text-align: right;
+}
+
+.ensinos {
+  width: 500px;
+  text-align: left;
+  border: 2px solid #2f2e2e;
+  padding: 40px;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 10px;
+  background: #fad000;
+  color: #2f2e2e;
+}
+.titulo {
+  margin-bottom: 5px;
+  border-bottom: 3px solid #2f2e2e;
+  text-align: center;
+}
+.linha {
+  border-bottom: 1px solid #2f2e2e;
+  margin: 10px 0;
+}
+.sombra {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.titulo-lista{
+  font-style: normal;
+  font-size: 100%;
+}
